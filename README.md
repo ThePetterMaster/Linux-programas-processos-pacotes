@@ -41,3 +41,19 @@ kill 16546
 ````
 kill -9 16546
 ````
+
+## Consumo de memória por processo
+
+````
+top
+````
+
+## Encerrar processos por nome 
+
+````
+killall NomeDoPrograma
+````
+ou
+````
+killall -9 NomeDoPrograma
+````
