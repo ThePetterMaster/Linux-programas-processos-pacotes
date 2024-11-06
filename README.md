@@ -29,3 +29,15 @@ ps -ef | grep NomeDoPrograma
 ````
 grep California google.txt
 ````
+
+## Encerrar um processo de id 16546
+
+````
+kill 16546
+````
+
+## Encerrar bruscamente um processo de id 16546
+
+````
+kill -9 16546
+````
