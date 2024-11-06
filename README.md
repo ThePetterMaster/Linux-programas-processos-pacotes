@@ -57,3 +57,15 @@ ou
 ````
 killall -9 NomeDoPrograma
 ````
+
+## Ver os processos que estão pausados ou sendo executados em segundo plano no bash em que estamos
+
+````
+jobs
+````
+
+## Visualizar essa árvore de processos
+
+````
+pstree
+````
