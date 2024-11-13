@@ -69,3 +69,38 @@ jobs
 ````
 pstree
 ````
+
+## Executando e alterando arquivo
+
+Usando gedit para criar um script de nome "dorme"
+
+````
+gedit dorme &
+````
+
+Criando um script
+
+````
+echo "Vou dormir"
+sleep 5
+echo "Terminei de dormir"
+````
+
+Executando com sh
+
+````
+sh dorme
+````
+
+Liberar execução por qualquer um
+
+````
+chmod +x dorme
+````
+
+Executando depois de liberar
+
+````
+./dorme
+````
+
