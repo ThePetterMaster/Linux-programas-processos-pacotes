@@ -109,3 +109,21 @@ Executando depois de liberar
 ````
  which firefox
 ````
+
+## Mudar senha do usuário atual
+
+````
+passwd
+````
+
+## Mudar de usuário
+
+````
+su nomeusuario
+````
+
+Mudando para usuário root
+
+````
+su root
+````
