@@ -127,3 +127,15 @@ Mudando para usuário root
 ````
 su root
 ````
+
+## Criar um usuário chamado jose
+
+````
+adduser jose
+````
+
+## Dar aos outros usuários o poder de ler e executar em um diretório jose
+
+````
+chmod o-rx jose
+````
