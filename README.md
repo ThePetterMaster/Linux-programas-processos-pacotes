@@ -104,3 +104,8 @@ Executando depois de liberar
 ./dorme
 ````
 
+## Mostrar pasta que está instalado um programa(firefox)
+
+````
+ which firefox
+````
