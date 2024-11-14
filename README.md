@@ -139,3 +139,42 @@ adduser jose
 ````
 chmod o-rx jose
 ````
+
+## Executar um arquivo globalmente só para um usuário(exmplo para guilherme)
+
+Dentro do diretório workspace vamos criar um novo programa chamado oi, entraremos no diretório usando o comando cd e abriremos o gedit em background:
+
+````
+cd workspace
+gedit oi &
+````
+
+Digitar dentro do arquivo:
+
+````
+echo "Oi, tudo bem?"
+````
+
+Permitir execução
+
+````
+chmod +x oi
+````
+
+Editar o arquivo para configurar variável global
+
+````
+gedit .bashrc &
+````
+
+Adicionar uma linha:
+
+````
+PATH=$PATH:/home/guilherme/workspace
+````
+
+Consultar variáveis de ambiente:
+
+````
+env
+````
