@@ -202,3 +202,18 @@ sudo apt-get install vsftpd
 ````
 sudo apt-get remove vsftpd
 ````
+
+## Instalando pacote baixado
+
+````
+sudo dpkg -i vsftpd-dbg_3.0.3-12+b1_amd64.deb
+````
+
+## Remover pacote
+
+````
+sudo dpkg -r [nome do pacote]
+````
+````
+sudo dpkg -r vsftpd
+````
