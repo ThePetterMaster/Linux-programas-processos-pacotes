@@ -178,3 +178,27 @@ Consultar variáveis de ambiente:
 ````
 env
 ````
+
+## Atualizar programas
+
+````
+sudo apt-get update
+````
+
+## Pesquisar programas de servidores ftp
+
+````
+apt-cache search ftp
+````
+
+## Instalar servidor ftp
+
+````
+sudo apt-get install vsftpd
+````
+
+## Remover servidor ftp
+
+````
+sudo apt-get remove vsftpd
+````
